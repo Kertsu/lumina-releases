@@ -1,1 +1,110 @@
+/* Hallmark · v2.0.0 · theme: Dusk · genre: modern-minimal · job: try · shape: Feature Ledger · hero: Stage · nav: wordmark and links · footer: index · imagery: real beta captures · signature: the same verse on the operator and audience screens · copy: verbatim */
+/* Hallmark · pre-emit critique: P4 H4 E4 S5 R4 V4 · weakest: R, use matching caption icons to distinguish the two views. */
+/* Hallmark · waive 26b · button links have a Tailwind active variant · The download link uses motion-safe:active:translate-y-px. */
 @import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-geist), system-ui, sans-serif;
+}
+
+@theme {
+  --color-night: #111922;
+  --color-night-ink: #f7f3e9;
+  --color-night-muted: #b6c2ce;
+  --color-night-rule: #3c4a59;
+  --color-paper: #f5f2e9;
+  --color-paper-raised: #ebe7dc;
+  --color-ink: #192630;
+  --color-muted: #4e5d68;
+  --color-rule: #c7c4b9;
+  --color-signal: #bdd9f4;
+  --color-signal-hover: #d8ebff;
+  --color-signal-deep: #31577d;
+  --color-screen-edge: #667d93;
+
+  --text-title: clamp(1.375rem, 1.8vw, 1.75rem);
+  --text-lead: clamp(1.125rem, 1.5vw, 1.25rem);
+  --text-section: clamp(2.25rem, 4.4vw, 4rem);
+  --text-display: clamp(3.25rem, 6vw, 5.75rem);
+  --tracking-display: -0.059em;
+  --font-weight-medium: 550;
+
+  --container-site: 80rem;
+  --spacing-gutter: clamp(1.5rem, 5vw, 4.5rem);
+  --spacing-columns: 2rem;
+  --spacing-section: clamp(4rem, 8vw, 7rem);
+  --radius-media: 0.5rem;
+  --shadow-screen: 0 20px 44px #060d1570;
+}
+
+@utility wrap {
+  width: min(var(--container-site), calc(100% - 2 * var(--spacing-gutter)));
+  margin-inline: auto;
+}
+
+@utility paper-surface {
+  color-scheme: light;
+  color: var(--color-ink);
+  background-color: var(--color-paper);
+  --focus-color: var(--color-signal-deep);
+}
+
+@layer base {
+  html,
+  body {
+    overflow-x: clip;
+  }
+
+  html {
+    color-scheme: dark;
+    scroll-padding-top: 1.5rem;
+    scrollbar-color: var(--color-night-rule) var(--color-night);
+  }
+
+  body {
+    font-synthesis: none;
+  }
+
+  h1,
+  h2,
+  h3 {
+    min-width: 0;
+    overflow-wrap: break-word;
+    text-wrap: balance;
+    line-height: 1.04;
+    letter-spacing: var(--tracking-display);
+    font-weight: 510;
+  }
+
+  h2 { font-size: var(--text-section); }
+  h3 { font-size: var(--text-title); }
+  p { text-wrap: pretty; }
+
+  a {
+    text-decoration: underline;
+    text-underline-offset: 0.24em;
+  }
+
+  a:hover { text-decoration-thickness: 2px; }
+
+  :focus-visible {
+    outline: 2px solid var(--focus-color, var(--color-signal));
+    outline-offset: 4px;
+  }
+
+  ::selection {
+    color: var(--color-night);
+    background-color: var(--color-signal);
+  }
+
+  svg {
+    @apply block size-5 shrink-0 fill-none stroke-current;
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  @media (width < 40rem) {
+    :root { --spacing-columns: 1.5rem; }
+  }
+}

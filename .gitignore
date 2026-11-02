@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Release inputs copied for Next's public directory
+/public/.nojekyll
+/public/assets/
+/public/downloads.json
+/public/updates/
