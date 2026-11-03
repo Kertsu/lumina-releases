@@ -1,3 +1,18 @@
 {
-  "status": "preparing"
+  "version": "0.1.0-beta.4",
+  "releaseUrl": "https://github.com/Kertsu/lumina-releases/releases/tag/v0.1.0-beta.4",
+  "installers": {
+    "linux-x64": {
+      "filename": "Lumina_0.1.0-beta.4_linux-x64.AppImage",
+      "url": "https://github.com/Kertsu/lumina-releases/releases/download/v0.1.0-beta.4/Lumina_0.1.0-beta.4_linux-x64.AppImage"
+    },
+    "macos-universal": {
+      "filename": "Lumina_0.1.0-beta.4_macos-universal.dmg",
+      "url": "https://github.com/Kertsu/lumina-releases/releases/download/v0.1.0-beta.4/Lumina_0.1.0-beta.4_macos-universal.dmg"
+    },
+    "windows-x64": {
+      "filename": "Lumina_0.1.0-beta.4_windows-x64.exe",
+      "url": "https://github.com/Kertsu/lumina-releases/releases/download/v0.1.0-beta.4/Lumina_0.1.0-beta.4_windows-x64.exe"
+    }
+  }
 }
