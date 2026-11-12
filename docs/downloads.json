@@ -1,18 +1,18 @@
 {
-  "version": "0.1.0-beta.6",
-  "releaseUrl": "https://github.com/Kertsu/lumina-releases/releases/tag/v0.1.0-beta.6",
+  "version": "0.1.0-beta.8",
+  "releaseUrl": "https://github.com/Kertsu/lumina-releases/releases/tag/v0.1.0-beta.8",
   "installers": {
     "linux-x64": {
-      "filename": "Lumina_0.1.0-beta.6_linux-x64.AppImage",
-      "url": "https://github.com/Kertsu/lumina-releases/releases/download/v0.1.0-beta.6/Lumina_0.1.0-beta.6_linux-x64.AppImage"
+      "filename": "Lumina_0.1.0-beta.8_linux-x64.AppImage",
+      "url": "https://github.com/Kertsu/lumina-releases/releases/download/v0.1.0-beta.8/Lumina_0.1.0-beta.8_linux-x64.AppImage"
     },
     "macos-universal": {
-      "filename": "Lumina_0.1.0-beta.6_macos-universal.dmg",
-      "url": "https://github.com/Kertsu/lumina-releases/releases/download/v0.1.0-beta.6/Lumina_0.1.0-beta.6_macos-universal.dmg"
+      "filename": "Lumina_0.1.0-beta.8_macos-universal.dmg",
+      "url": "https://github.com/Kertsu/lumina-releases/releases/download/v0.1.0-beta.8/Lumina_0.1.0-beta.8_macos-universal.dmg"
     },
     "windows-x64": {
-      "filename": "Lumina_0.1.0-beta.6_windows-x64.exe",
-      "url": "https://github.com/Kertsu/lumina-releases/releases/download/v0.1.0-beta.6/Lumina_0.1.0-beta.6_windows-x64.exe"
+      "filename": "Lumina_0.1.0-beta.8_windows-x64.exe",
+      "url": "https://github.com/Kertsu/lumina-releases/releases/download/v0.1.0-beta.8/Lumina_0.1.0-beta.8_windows-x64.exe"
     }
   }
 }
