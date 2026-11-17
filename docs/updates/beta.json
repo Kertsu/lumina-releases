@@ -1,22 +1,22 @@
 {
-  "version": "0.1.0-beta.9",
-  "notes": "# Lumina 0.1.0-beta.9\n\nWord searches can now be shown to your audience as a summary slide. Use\n**Preview summary** in the search results to preview it privately. The slide\nshows the search term, number of matching verses, translation, and search scope.\n\nChoose **Send Live** to show the summary. **Restore previous output**\nbrings back what the audience was seeing before. You can also enable\n**Preview search summaries automatically** in Settings.\n",
+  "version": "0.1.0-beta.10",
+  "notes": "# Lumina 0.1.0-beta.10\n\n**Shift+F10** now opens the active workspace tab’s menu even when focus\nis elsewhere in the projection desk. You can also open the menu by\nchoosing **Workspace tab options** in **Keyboard shortcuts**.\n",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOUdPQk9WTkZ5RnpmbmIyZzVKbGpVamp2M1RrbCtZWmc1eC95TUJ4NnlYdEVCVXJVbDdORjBFc2RpOG5yMDZNc0ExRVA3ZzBpYXBmdXc4UTRxZWpVdzVUUzUyVVNZRVFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTI3MDIxCWZpbGU6THVtaW5hXzAuMS4wLWJldGEuOV9hbWQ2NC5BcHBJbWFnZQovQzRYMHoybk5aMEx2Q3ZiNlBUdnhvd011bWhzenIzM3ZwT1JHQTNkYThFd3ArNitZNStTV1E5am5KVWpJUTlBRlpIeWltRmxMSnljRGRRTnYyZ29EZz09Cg==",
-      "url": "https://github.com/Kertsu/lumina-releases/releases/download/v0.1.0-beta.9/Lumina_0.1.0-beta.9_linux-x64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOUdPQk9WTkZ5RjZNQkZmZnNmcytCTUFpTnJwbDd6TFVjaUY1OVVvd1JsQnN5ZEZUbm8zTm53QWUyWENCMDdiWTZjR2FWY1UxaTRTVGFSUk94TExaL0FoOGNPWUZtZ3dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTMxNDg2CWZpbGU6THVtaW5hXzAuMS4wLWJldGEuMTBfYW1kNjQuQXBwSW1hZ2UKMmNVN3ZnZllNcnQ2K3NrSG9NcXBxOXlDNFNXRmhRMGJocGZrV3Vmemd1bmxFTEZhTEF1VHdNWFFkS1YxYk1TUGtPOTFXaVlPcm5UY0hIL2U2L2F5REE9PQo=",
+      "url": "https://github.com/Kertsu/lumina-releases/releases/download/v0.1.0-beta.10/Lumina_0.1.0-beta.10_linux-x64.AppImage"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOUdPQk9WTkZ5RjJrU0J6MlFoNXdqN21ldW5xTnlxM0NwV2JQL3c0Ly9kTWN4QVRqU2Y3Ky9OZjVLcEtXZ3ZORiswRmZNM212NDBGdVhDWkhoV2RuY1c4SlVnQ1NWZEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTI4MDEwCWZpbGU6THVtaW5hLmFwcC50YXIuZ3oJdmVyc2lvbjowLjEuMC1iZXRhLjkKaDJzZWQxenVaWWFTVUczSnFORHduaGltY0FHTTUzL1cvbnhDQnQ4N1RHS3BmdXBNbXRnZ2E1bjhzcU0yYjdxSnJ3QWNtZXJXei9aR01UWGpsUXZrQUE9PQo=",
-      "url": "https://github.com/Kertsu/lumina-releases/releases/download/v0.1.0-beta.9/Lumina_0.1.0-beta.9_macos-universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOUdPQk9WTkZ5RjVYRGU0NEpvTkl2ZHdvZS9VcHFnREVseXAxUjFaeWpwNkNUWUVyVzRTSTZ0clZGbjMzeko0UUQ0L3lYcHhRQkxHTE9zL1pwTW5JeXBZM2ljaTNtVVFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTMwNzYwCWZpbGU6THVtaW5hLmFwcC50YXIuZ3oJdmVyc2lvbjowLjEuMC1iZXRhLjEwCjBjMmYzWVNvUDRtQlkwdEJBd0E3T0VEcVFlUld3dURBNytKR3dGa3dzS3FiTytoUkFqS1NKRkpUZnlER21wTnNoM3FQR0l5M0VoeVNIQUJ5YkhGUERnPT0K",
+      "url": "https://github.com/Kertsu/lumina-releases/releases/download/v0.1.0-beta.10/Lumina_0.1.0-beta.10_macos-universal.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOUdPQk9WTkZ5RjJrU0J6MlFoNXdqN21ldW5xTnlxM0NwV2JQL3c0Ly9kTWN4QVRqU2Y3Ky9OZjVLcEtXZ3ZORiswRmZNM212NDBGdVhDWkhoV2RuY1c4SlVnQ1NWZEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTI4MDEwCWZpbGU6THVtaW5hLmFwcC50YXIuZ3oJdmVyc2lvbjowLjEuMC1iZXRhLjkKaDJzZWQxenVaWWFTVUczSnFORHduaGltY0FHTTUzL1cvbnhDQnQ4N1RHS3BmdXBNbXRnZ2E1bjhzcU0yYjdxSnJ3QWNtZXJXei9aR01UWGpsUXZrQUE9PQo=",
-      "url": "https://github.com/Kertsu/lumina-releases/releases/download/v0.1.0-beta.9/Lumina_0.1.0-beta.9_macos-universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOUdPQk9WTkZ5RjVYRGU0NEpvTkl2ZHdvZS9VcHFnREVseXAxUjFaeWpwNkNUWUVyVzRTSTZ0clZGbjMzeko0UUQ0L3lYcHhRQkxHTE9zL1pwTW5JeXBZM2ljaTNtVVFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTMwNzYwCWZpbGU6THVtaW5hLmFwcC50YXIuZ3oJdmVyc2lvbjowLjEuMC1iZXRhLjEwCjBjMmYzWVNvUDRtQlkwdEJBd0E3T0VEcVFlUld3dURBNytKR3dGa3dzS3FiTytoUkFqS1NKRkpUZnlER21wTnNoM3FQR0l5M0VoeVNIQUJ5YkhGUERnPT0K",
+      "url": "https://github.com/Kertsu/lumina-releases/releases/download/v0.1.0-beta.10/Lumina_0.1.0-beta.10_macos-universal.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOUdPQk9WTkZ5RjYzeFFudlNKY2xBdDhaWFp0UytaNzlwQU92ZUNacGlPdFhHT3JxVGFXdUJ5L1crNWhqVThEWG1WZnVMZ3RTdWUzdW1ocUxiaEllWUR5K0p5OG5xQWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTI3NDM2CWZpbGU6THVtaW5hXzAuMS4wLWJldGEuOV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4xLjAtYmV0YS45CmsrNC9xNFB0TUtGUWJlS2UxSDZCNFVOUmQ4dnJZa3ZxVWFpc0EwbmY1bUFsbHBrSDZmQTE4SXFPdzRaK0VWbHFhaElrTUhJeXE0U3U5U2x5Ny9lWUJ3PT0K",
-      "url": "https://github.com/Kertsu/lumina-releases/releases/download/v0.1.0-beta.9/Lumina_0.1.0-beta.9_windows-x64.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOUdPQk9WTkZ5RndPQ0lkMGp1ZWZWR0dFdW9naWhxK0FwaEdCVlg1MXdZS2dRUkY4MzRtd1I4SmtQR0VKVU8yanBUU2d0TFk4MnFUSzZKUlBWK1Bwam9IWUJhcXB2NWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTMxNTcyCWZpbGU6THVtaW5hXzAuMS4wLWJldGEuMTBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuMS4wLWJldGEuMTAKdkZlbmV6NGRmcUwyN01RUnhsaXpKSnRYd1F0RERlQ1BKdjkwQWFxRjAxekxONDc4QlFpS3daNUh3b1hucnR3dFV4MENZWXZlM1BLbnpNd2JCdkdxQ1E9PQo=",
+      "url": "https://github.com/Kertsu/lumina-releases/releases/download/v0.1.0-beta.10/Lumina_0.1.0-beta.10_windows-x64.exe"
     }
   }
 }
